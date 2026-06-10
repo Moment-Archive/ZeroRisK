@@ -1,0 +1,14 @@
+rank,result_dir,correct,total,accuracy,pred_normal,pred_unsafe,pred_danger,normal_correct,unsafe_correct,danger_correct,normal_total,unsafe_total,danger_total
+1,bbox_action_v0_new,319,339,0.9410,123,7,209,104,6,209,104,23,212
+2,bbox_no_action_v0_new,315,339,0.9292,122,3,214,104,2,209,104,23,212
+3,bbox_action_v2,314,339,0.9263,103,38,198,99,18,197,104,23,212
+4,bbox_no_action_v0,313,339,0.9233,118,9,212,103,4,206,104,23,212
+5,nobbox_no_action_v0_new,312,339,0.9204,124,8,207,104,3,205,104,23,212
+6,no_bbox_no_action_v0,312,339,0.9204,119,19,201,104,8,200,104,23,212
+7,no_bbox_no_action_v1,294,339,0.8673,69,60,210,68,19,207,104,23,212
+8,bbox_no_action_v1,293,339,0.8643,70,50,219,68,15,210,104,23,212
+9,archive_invalid_action_v1_duplicate_no_action,293,339,0.8643,70,50,219,68,15,210,104,23,212
+10,no_bbox_no_action_v2,289,339,0.8525,70,16,253,69,11,209,104,23,212
+11,bbox_action_v0,281,339,0.8289,100,73,166,96,19,166,104,23,212
+12,bbox_no_action_v2,262,339,0.7729,45,11,283,42,9,211,104,23,212
+13,bbox_action_v1,260,339,0.7670,65,96,178,61,21,178,104,23,212

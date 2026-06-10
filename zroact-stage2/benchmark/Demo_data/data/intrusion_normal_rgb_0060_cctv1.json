@@ -1,0 +1,4727 @@
+{
+  "video": "intrusion_normal_rgb_0060_cctv1",
+  "frames": [
+    {
+      "frame_idx": 30,
+      "frame_file": "30fps_frame_030.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.57,
+            "y1": 0.48,
+            "x2": 0.62,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7645
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4686
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.57,
+            "y1": 0.49,
+            "x2": 0.62,
+            "y2": 0.78
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4222
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 31,
+      "frame_file": "30fps_frame_031.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.56,
+            "y1": 0.48,
+            "x2": 0.62,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7645
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4692
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.56,
+            "y1": 0.48,
+            "x2": 0.62,
+            "y2": 0.78
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3495
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 32,
+      "frame_file": "30fps_frame_032.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.56,
+            "y1": 0.48,
+            "x2": 0.61,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7484
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4356
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.56,
+            "y1": 0.48,
+            "x2": 0.62,
+            "y2": 0.78
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3482
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 33,
+      "frame_file": "30fps_frame_033.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.56,
+            "y1": 0.48,
+            "x2": 0.61,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7315
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.442
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.56,
+            "y1": 0.49,
+            "x2": 0.61,
+            "y2": 0.78
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3102
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 34,
+      "frame_file": "30fps_frame_034.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.56,
+            "y1": 0.48,
+            "x2": 0.61,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7051
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.393
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.56,
+            "y1": 0.49,
+            "x2": 0.61,
+            "y2": 0.78
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3164
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 35,
+      "frame_file": "30fps_frame_035.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.56,
+            "y1": 0.48,
+            "x2": 0.61,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7075
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4192
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3577
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 36,
+      "frame_file": "30fps_frame_036.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.56,
+            "y1": 0.48,
+            "x2": 0.61,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.739
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3989
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.55,
+            "y1": 0.48,
+            "x2": 0.61,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3276
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 37,
+      "frame_file": "30fps_frame_037.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.55,
+            "y1": 0.48,
+            "x2": 0.61,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7188
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3151
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.56,
+            "y1": 0.48,
+            "x2": 0.61,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3781
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 38,
+      "frame_file": "30fps_frame_038.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.55,
+            "y1": 0.48,
+            "x2": 0.61,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7385
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4052
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 39,
+      "frame_file": "30fps_frame_039.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.55,
+            "y1": 0.48,
+            "x2": 0.6,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6883
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3811
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 40,
+      "frame_file": "30fps_frame_040.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.55,
+            "y1": 0.48,
+            "x2": 0.6,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6814
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4119
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 41,
+      "frame_file": "30fps_frame_041.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.55,
+            "y1": 0.48,
+            "x2": 0.6,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6131
+            },
+            {
+              "class_id": 10,
+              "class_name": "run/jog",
+              "score": 0.4246
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3944
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 42,
+      "frame_file": "30fps_frame_042.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.55,
+            "y1": 0.48,
+            "x2": 0.6,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6629
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4498
+            },
+            {
+              "class_id": 10,
+              "class_name": "run/jog",
+              "score": 0.411
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 43,
+      "frame_file": "30fps_frame_043.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.55,
+            "y1": 0.48,
+            "x2": 0.6,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6748
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.445
+            },
+            {
+              "class_id": 10,
+              "class_name": "run/jog",
+              "score": 0.3928
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 44,
+      "frame_file": "30fps_frame_044.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.55,
+            "y1": 0.48,
+            "x2": 0.6,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7002
+            },
+            {
+              "class_id": 10,
+              "class_name": "run/jog",
+              "score": 0.4077
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.54,
+            "y1": 0.48,
+            "x2": 0.6,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.466
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 45,
+      "frame_file": "30fps_frame_045.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.54,
+            "y1": 0.48,
+            "x2": 0.6,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7044
+            },
+            {
+              "class_id": 10,
+              "class_name": "run/jog",
+              "score": 0.4195
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.54,
+            "y1": 0.49,
+            "x2": 0.6,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4779
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 46,
+      "frame_file": "30fps_frame_046.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.54,
+            "y1": 0.49,
+            "x2": 0.6,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7336
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4936
+            },
+            {
+              "class_id": 10,
+              "class_name": "run/jog",
+              "score": 0.3391
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 47,
+      "frame_file": "30fps_frame_047.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.54,
+            "y1": 0.49,
+            "x2": 0.6,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.714
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4799
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 48,
+      "frame_file": "30fps_frame_048.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.53,
+            "y1": 0.49,
+            "x2": 0.6,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7082
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.453
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3301
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 49,
+      "frame_file": "30fps_frame_049.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.53,
+            "y1": 0.49,
+            "x2": 0.6,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6996
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.53,
+            "y1": 0.48,
+            "x2": 0.6,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4376
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 50,
+      "frame_file": "30fps_frame_050.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.53,
+            "y1": 0.49,
+            "x2": 0.59,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6183
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3969
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.376
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 51,
+      "frame_file": "30fps_frame_051.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.59,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5675
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4242
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.53,
+            "y1": 0.49,
+            "x2": 0.59,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.335
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 52,
+      "frame_file": "30fps_frame_052.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.59,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6115
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4485
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3602
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 53,
+      "frame_file": "30fps_frame_053.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.53,
+            "y1": 0.49,
+            "x2": 0.59,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6635
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4959
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3401
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 54,
+      "frame_file": "30fps_frame_054.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.53,
+            "y1": 0.49,
+            "x2": 0.59,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6882
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4113
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.59,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4988
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 55,
+      "frame_file": "30fps_frame_055.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.53,
+            "y1": 0.49,
+            "x2": 0.59,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6982
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4687
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3477
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 56,
+      "frame_file": "30fps_frame_056.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.58,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7129
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.5151
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.59,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3921
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 57,
+      "frame_file": "30fps_frame_057.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.58,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7059
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.58,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4971
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.59,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4227
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 58,
+      "frame_file": "30fps_frame_058.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.58,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6937
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.58,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4821
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.59,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4697
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 59,
+      "frame_file": "30fps_frame_059.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.58,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7066
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4357
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.58,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4849
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 60,
+      "frame_file": "30fps_frame_060.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.58,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6856
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.5254
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.58,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4873
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 61,
+      "frame_file": "30fps_frame_061.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.58,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7392
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.5108
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.58,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.465
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 62,
+      "frame_file": "30fps_frame_062.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.58,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6572
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.5866
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4401
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 63,
+      "frame_file": "30fps_frame_063.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.57,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7158
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.58,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4685
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.49,
+            "x2": 0.58,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 64,
+      "frame_file": "30fps_frame_064.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.48,
+            "x2": 0.57,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6513
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.48,
+            "x2": 0.58,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.5313
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.53,
+            "y1": 0.48,
+            "x2": 0.57,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4151
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 65,
+      "frame_file": "30fps_frame_065.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.48,
+            "x2": 0.57,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7001
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4327
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3471
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 66,
+      "frame_file": "30fps_frame_066.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.52,
+            "y1": 0.48,
+            "x2": 0.57,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6465
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.401
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3324
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 67,
+      "frame_file": "30fps_frame_067.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.51,
+            "y1": 0.48,
+            "x2": 0.57,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6662
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4331
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 68,
+      "frame_file": "30fps_frame_068.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.51,
+            "y1": 0.48,
+            "x2": 0.57,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6323
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.432
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 69,
+      "frame_file": "30fps_frame_069.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.51,
+            "y1": 0.48,
+            "x2": 0.56,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6334
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.51,
+            "y1": 0.48,
+            "x2": 0.57,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4255
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 70,
+      "frame_file": "30fps_frame_070.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.51,
+            "y1": 0.48,
+            "x2": 0.56,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6155
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3646
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 71,
+      "frame_file": "30fps_frame_071.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.51,
+            "y1": 0.48,
+            "x2": 0.56,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6816
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4165
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 72,
+      "frame_file": "30fps_frame_072.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.51,
+            "y1": 0.48,
+            "x2": 0.56,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6666
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.408
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 73,
+      "frame_file": "30fps_frame_073.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.51,
+            "y1": 0.48,
+            "x2": 0.56,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6896
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.5,
+            "y1": 0.48,
+            "x2": 0.56,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4226
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 74,
+      "frame_file": "30fps_frame_074.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.5,
+            "y1": 0.48,
+            "x2": 0.56,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7103
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4344
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 75,
+      "frame_file": "30fps_frame_075.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.5,
+            "y1": 0.48,
+            "x2": 0.56,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7308
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.51,
+            "y1": 0.48,
+            "x2": 0.56,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.5037
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 76,
+      "frame_file": "30fps_frame_076.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.5,
+            "y1": 0.48,
+            "x2": 0.56,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6746
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4747
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 77,
+      "frame_file": "30fps_frame_077.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.5,
+            "y1": 0.48,
+            "x2": 0.56,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6677
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4552
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 78,
+      "frame_file": "30fps_frame_078.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.5,
+            "y1": 0.48,
+            "x2": 0.55,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7209
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.5038
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 79,
+      "frame_file": "30fps_frame_079.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.5,
+            "y1": 0.48,
+            "x2": 0.55,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7316
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.5224
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 80,
+      "frame_file": "30fps_frame_080.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.5,
+            "y1": 0.48,
+            "x2": 0.55,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6704
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4922
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3328
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 81,
+      "frame_file": "30fps_frame_081.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.5,
+            "y1": 0.48,
+            "x2": 0.55,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6912
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.5118
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.5,
+            "y1": 0.48,
+            "x2": 0.55,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3494
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 82,
+      "frame_file": "30fps_frame_082.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.49,
+            "y1": 0.48,
+            "x2": 0.55,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7193
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.5086
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 83,
+      "frame_file": "30fps_frame_083.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.49,
+            "y1": 0.49,
+            "x2": 0.55,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7588
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.5283
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 84,
+      "frame_file": "30fps_frame_084.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.49,
+            "y1": 0.49,
+            "x2": 0.55,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7513
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.5288
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 85,
+      "frame_file": "30fps_frame_085.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.49,
+            "y1": 0.49,
+            "x2": 0.55,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7445
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.5272
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.49,
+            "y1": 0.49,
+            "x2": 0.55,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3305
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 86,
+      "frame_file": "30fps_frame_086.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.49,
+            "y1": 0.49,
+            "x2": 0.54,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7431
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.49,
+            "y1": 0.49,
+            "x2": 0.54,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4932
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 87,
+      "frame_file": "30fps_frame_087.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.49,
+            "y1": 0.49,
+            "x2": 0.54,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7388
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3226
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.49,
+            "y1": 0.49,
+            "x2": 0.54,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.5078
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 88,
+      "frame_file": "30fps_frame_088.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.49,
+            "y1": 0.49,
+            "x2": 0.54,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6992
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3376
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.49,
+            "y1": 0.49,
+            "x2": 0.54,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.5056
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 89,
+      "frame_file": "30fps_frame_089.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.49,
+            "y1": 0.49,
+            "x2": 0.54,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6614
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.49,
+            "y1": 0.49,
+            "x2": 0.54,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4587
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3121
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 90,
+      "frame_file": "30fps_frame_090.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.48,
+            "y1": 0.49,
+            "x2": 0.54,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6865
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4426
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 91,
+      "frame_file": "30fps_frame_091.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.48,
+            "y1": 0.49,
+            "x2": 0.53,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6861
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.48,
+            "y1": 0.49,
+            "x2": 0.54,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4224
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.48,
+            "y1": 0.49,
+            "x2": 0.54,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 11,
+              "class_name": "sit",
+              "score": 0.3045
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 92,
+      "frame_file": "30fps_frame_092.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.48,
+            "y1": 0.49,
+            "x2": 0.53,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6744
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.48,
+            "y1": 0.49,
+            "x2": 0.53,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4429
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 93,
+      "frame_file": "30fps_frame_093.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.48,
+            "y1": 0.49,
+            "x2": 0.53,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.639
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.48,
+            "y1": 0.49,
+            "x2": 0.53,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4483
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 94,
+      "frame_file": "30fps_frame_094.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.48,
+            "y1": 0.48,
+            "x2": 0.53,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.636
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.48,
+            "y1": 0.49,
+            "x2": 0.53,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4258
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 95,
+      "frame_file": "30fps_frame_095.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.48,
+            "y1": 0.48,
+            "x2": 0.53,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6853
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.446
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 96,
+      "frame_file": "30fps_frame_096.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.48,
+            "y1": 0.49,
+            "x2": 0.53,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6881
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4586
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 97,
+      "frame_file": "30fps_frame_097.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.47,
+            "y1": 0.49,
+            "x2": 0.53,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7289
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4518
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 98,
+      "frame_file": "30fps_frame_098.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.47,
+            "y1": 0.49,
+            "x2": 0.53,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7307
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4152
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 99,
+      "frame_file": "30fps_frame_099.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.47,
+            "y1": 0.49,
+            "x2": 0.52,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7014
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4011
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 100,
+      "frame_file": "30fps_frame_100.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.47,
+            "y1": 0.49,
+            "x2": 0.53,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6908
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3906
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 101,
+      "frame_file": "30fps_frame_101.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.47,
+            "y1": 0.49,
+            "x2": 0.52,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.616
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3464
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 102,
+      "frame_file": "30fps_frame_102.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.47,
+            "y1": 0.49,
+            "x2": 0.52,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5638
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3944
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 103,
+      "frame_file": "30fps_frame_103.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.47,
+            "y1": 0.49,
+            "x2": 0.52,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6367
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3969
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 104,
+      "frame_file": "30fps_frame_104.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.47,
+            "y1": 0.49,
+            "x2": 0.51,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6622
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4263
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3481
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 105,
+      "frame_file": "30fps_frame_105.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.46,
+            "y1": 0.49,
+            "x2": 0.51,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6644
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4439
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3918
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 106,
+      "frame_file": "30fps_frame_106.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.46,
+            "y1": 0.49,
+            "x2": 0.51,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6401
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4679
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4128
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 107,
+      "frame_file": "30fps_frame_107.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.46,
+            "y1": 0.49,
+            "x2": 0.51,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6895
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4672
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.365
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 108,
+      "frame_file": "30fps_frame_108.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.46,
+            "y1": 0.49,
+            "x2": 0.51,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6907
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4651
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3481
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 109,
+      "frame_file": "30fps_frame_109.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.46,
+            "y1": 0.49,
+            "x2": 0.51,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6813
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4715
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.45,
+            "y1": 0.49,
+            "x2": 0.51,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3527
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 110,
+      "frame_file": "30fps_frame_110.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.45,
+            "y1": 0.49,
+            "x2": 0.5,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.623
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4852
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3724
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 111,
+      "frame_file": "30fps_frame_111.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.45,
+            "y1": 0.49,
+            "x2": 0.5,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7034
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.5004
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 112,
+      "frame_file": "30fps_frame_112.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.45,
+            "y1": 0.49,
+            "x2": 0.5,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6155
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.472
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3162
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 113,
+      "frame_file": "30fps_frame_113.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.44,
+            "y1": 0.49,
+            "x2": 0.5,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6301
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4415
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 114,
+      "frame_file": "30fps_frame_114.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.44,
+            "y1": 0.49,
+            "x2": 0.5,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5885
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4321
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 115,
+      "frame_file": "30fps_frame_115.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.44,
+            "y1": 0.49,
+            "x2": 0.5,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5777
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4167
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3042
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 116,
+      "frame_file": "30fps_frame_116.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.44,
+            "y1": 0.49,
+            "x2": 0.5,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.565
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.43,
+            "y1": 0.49,
+            "x2": 0.5,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4202
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.405
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 117,
+      "frame_file": "30fps_frame_117.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.43,
+            "y1": 0.49,
+            "x2": 0.5,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5923
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.43,
+            "y1": 0.49,
+            "x2": 0.5,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.479
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4264
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 118,
+      "frame_file": "30fps_frame_118.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.43,
+            "y1": 0.49,
+            "x2": 0.5,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5816
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.43,
+            "y1": 0.49,
+            "x2": 0.5,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.5285
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4359
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 119,
+      "frame_file": "30fps_frame_119.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.43,
+            "y1": 0.49,
+            "x2": 0.5,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5674
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.5184
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4054
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 120,
+      "frame_file": "30fps_frame_120.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.43,
+            "y1": 0.49,
+            "x2": 0.5,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.5924
+            },
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5014
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4197
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 121,
+      "frame_file": "30fps_frame_121.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.43,
+            "y1": 0.49,
+            "x2": 0.49,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5578
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.5532
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 122,
+      "frame_file": "30fps_frame_122.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.43,
+            "y1": 0.49,
+            "x2": 0.49,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.592
+            },
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.4951
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4261
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 123,
+      "frame_file": "30fps_frame_123.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.43,
+            "y1": 0.49,
+            "x2": 0.49,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.5712
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4305
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.43,
+            "y1": 0.48,
+            "x2": 0.49,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.4534
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 124,
+      "frame_file": "30fps_frame_124.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.43,
+            "y1": 0.49,
+            "x2": 0.49,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.5486
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.43,
+            "y1": 0.49,
+            "x2": 0.48,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3952
+            },
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.3916
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 125,
+      "frame_file": "30fps_frame_125.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.43,
+            "y1": 0.48,
+            "x2": 0.48,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5422
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4231
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.43,
+            "y1": 0.49,
+            "x2": 0.48,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4538
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 126,
+      "frame_file": "30fps_frame_126.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.43,
+            "y1": 0.48,
+            "x2": 0.48,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5456
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.481
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4543
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 127,
+      "frame_file": "30fps_frame_127.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.42,
+            "y1": 0.48,
+            "x2": 0.48,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5253
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4832
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4752
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 128,
+      "frame_file": "30fps_frame_128.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.42,
+            "y1": 0.48,
+            "x2": 0.47,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5276
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4817
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.42,
+            "y1": 0.48,
+            "x2": 0.48,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4667
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 129,
+      "frame_file": "30fps_frame_129.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.42,
+            "y1": 0.48,
+            "x2": 0.47,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5314
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.479
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4753
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 130,
+      "frame_file": "30fps_frame_130.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.42,
+            "y1": 0.48,
+            "x2": 0.47,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5242
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4755
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4618
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 131,
+      "frame_file": "30fps_frame_131.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.42,
+            "y1": 0.48,
+            "x2": 0.47,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5009
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4297
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.41,
+            "y1": 0.48,
+            "x2": 0.47,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4762
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 132,
+      "frame_file": "30fps_frame_132.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.41,
+            "y1": 0.48,
+            "x2": 0.46,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5527
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.451
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4291
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 133,
+      "frame_file": "30fps_frame_133.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.41,
+            "y1": 0.48,
+            "x2": 0.46,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5245
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4305
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.369
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 134,
+      "frame_file": "30fps_frame_134.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.41,
+            "y1": 0.48,
+            "x2": 0.46,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5201
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3664
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3036
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 135,
+      "frame_file": "30fps_frame_135.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.41,
+            "y1": 0.48,
+            "x2": 0.46,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.489
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.351
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3224
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 136,
+      "frame_file": "30fps_frame_136.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.4,
+            "y1": 0.48,
+            "x2": 0.46,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5627
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3445
+            },
+            {
+              "class_id": 11,
+              "class_name": "sit",
+              "score": 0.3167
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 137,
+      "frame_file": "30fps_frame_137.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.4,
+            "y1": 0.48,
+            "x2": 0.46,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.552
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3577
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 138,
+      "frame_file": "30fps_frame_138.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.39,
+            "y1": 0.48,
+            "x2": 0.46,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5325
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3694
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3426
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 139,
+      "frame_file": "30fps_frame_139.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.39,
+            "y1": 0.48,
+            "x2": 0.46,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5459
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.39,
+            "y1": 0.49,
+            "x2": 0.46,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4066
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.39,
+            "y1": 0.49,
+            "x2": 0.45,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3588
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 140,
+      "frame_file": "30fps_frame_140.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.4,
+            "y1": 0.48,
+            "x2": 0.45,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5704
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.39,
+            "y1": 0.49,
+            "x2": 0.46,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4199
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.39,
+            "y1": 0.49,
+            "x2": 0.45,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3547
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 141,
+      "frame_file": "30fps_frame_141.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.39,
+            "y1": 0.49,
+            "x2": 0.45,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5528
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.39,
+            "y1": 0.49,
+            "x2": 0.46,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4472
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.39,
+            "y1": 0.49,
+            "x2": 0.45,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.367
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 142,
+      "frame_file": "30fps_frame_142.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.39,
+            "y1": 0.49,
+            "x2": 0.45,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.5187
+            },
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5111
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3353
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 143,
+      "frame_file": "30fps_frame_143.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.39,
+            "y1": 0.49,
+            "x2": 0.45,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5019
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.465
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 144,
+      "frame_file": "30fps_frame_144.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.39,
+            "y1": 0.49,
+            "x2": 0.45,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5148
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4358
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 145,
+      "frame_file": "30fps_frame_145.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.39,
+            "y1": 0.49,
+            "x2": 0.45,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.497
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4807
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3013
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 146,
+      "frame_file": "30fps_frame_146.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.39,
+            "y1": 0.49,
+            "x2": 0.45,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4766
+            },
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.4418
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 147,
+      "frame_file": "30fps_frame_147.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.39,
+            "y1": 0.49,
+            "x2": 0.45,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4663
+            },
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.4325
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 148,
+      "frame_file": "30fps_frame_148.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.39,
+            "y1": 0.49,
+            "x2": 0.45,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.4324
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.4169
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3154
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 149,
+      "frame_file": "30fps_frame_149.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.38,
+            "y1": 0.49,
+            "x2": 0.45,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.4725
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3929
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3548
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 150,
+      "frame_file": "30fps_frame_150.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.38,
+            "y1": 0.49,
+            "x2": 0.44,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.3834
+            },
+            {
+              "class_id": 12,
+              "class_name": "stand",
+              "score": 0.3537
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 151,
+      "frame_file": "30fps_frame_151.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.38,
+            "y1": 0.49,
+            "x2": 0.44,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.4782
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3636
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 152,
+      "frame_file": "30fps_frame_152.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.38,
+            "y1": 0.49,
+            "x2": 0.44,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5052
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3686
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 153,
+      "frame_file": "30fps_frame_153.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.38,
+            "y1": 0.49,
+            "x2": 0.44,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5311
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4016
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 154,
+      "frame_file": "30fps_frame_154.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.38,
+            "y1": 0.49,
+            "x2": 0.43,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5328
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3879
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 155,
+      "frame_file": "30fps_frame_155.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.37,
+            "y1": 0.49,
+            "x2": 0.43,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6427
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.38,
+            "y1": 0.49,
+            "x2": 0.43,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4491
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 156,
+      "frame_file": "30fps_frame_156.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.37,
+            "y1": 0.49,
+            "x2": 0.43,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6182
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4543
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 157,
+      "frame_file": "30fps_frame_157.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.37,
+            "y1": 0.49,
+            "x2": 0.42,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6509
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.37,
+            "y1": 0.49,
+            "x2": 0.42,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4483
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 158,
+      "frame_file": "30fps_frame_158.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.37,
+            "y1": 0.49,
+            "x2": 0.42,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6759
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4363
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 159,
+      "frame_file": "30fps_frame_159.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.36,
+            "y1": 0.49,
+            "x2": 0.42,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.7315
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4703
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 160,
+      "frame_file": "30fps_frame_160.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.36,
+            "y1": 0.49,
+            "x2": 0.42,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6925
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.4352
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 161,
+      "frame_file": "30fps_frame_161.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.36,
+            "y1": 0.49,
+            "x2": 0.41,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6499
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3903
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 162,
+      "frame_file": "30fps_frame_162.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.36,
+            "y1": 0.49,
+            "x2": 0.41,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6296
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3567
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 163,
+      "frame_file": "30fps_frame_163.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.36,
+            "y1": 0.49,
+            "x2": 0.41,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.6094
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.36,
+            "y1": 0.49,
+            "x2": 0.41,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3635
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 164,
+      "frame_file": "30fps_frame_164.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.36,
+            "y1": 0.49,
+            "x2": 0.41,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5912
+            },
+            {
+              "class_id": 11,
+              "class_name": "sit",
+              "score": 0.3926
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.36,
+            "y1": 0.48,
+            "x2": 0.41,
+            "y2": 0.81
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.364
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 165,
+      "frame_file": "30fps_frame_165.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.36,
+            "y1": 0.49,
+            "x2": 0.41,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 11,
+              "class_name": "sit",
+              "score": 0.5733
+            },
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.4907
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3368
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 166,
+      "frame_file": "30fps_frame_166.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.36,
+            "y1": 0.49,
+            "x2": 0.41,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 11,
+              "class_name": "sit",
+              "score": 0.6084
+            },
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.4931
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.36,
+            "y1": 0.48,
+            "x2": 0.41,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3218
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 167,
+      "frame_file": "30fps_frame_167.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.35,
+            "y1": 0.49,
+            "x2": 0.41,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 11,
+              "class_name": "sit",
+              "score": 0.615
+            },
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5073
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 168,
+      "frame_file": "30fps_frame_168.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.35,
+            "y1": 0.49,
+            "x2": 0.41,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 11,
+              "class_name": "sit",
+              "score": 0.5857
+            },
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5187
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 169,
+      "frame_file": "30fps_frame_169.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.35,
+            "y1": 0.49,
+            "x2": 0.41,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 11,
+              "class_name": "sit",
+              "score": 0.5597
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.35,
+            "y1": 0.49,
+            "x2": 0.4,
+            "y2": 0.79
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5451
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 170,
+      "frame_file": "30fps_frame_170.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.35,
+            "y1": 0.49,
+            "x2": 0.4,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5517
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3133
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.35,
+            "y1": 0.49,
+            "x2": 0.41,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 11,
+              "class_name": "sit",
+              "score": 0.5282
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 171,
+      "frame_file": "30fps_frame_171.jpg",
+      "detections": [
+        {
+          "box": {
+            "x1": 0.35,
+            "y1": 0.49,
+            "x2": 0.4,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 14,
+              "class_name": "walk",
+              "score": 0.5818
+            },
+            {
+              "class_id": 17,
+              "class_name": "carry/hold (an object)",
+              "score": 0.3353
+            }
+          ]
+        },
+        {
+          "box": {
+            "x1": 0.35,
+            "y1": 0.49,
+            "x2": 0.41,
+            "y2": 0.8
+          },
+          "actions": [
+            {
+              "class_id": 11,
+              "class_name": "sit",
+              "score": 0.474
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

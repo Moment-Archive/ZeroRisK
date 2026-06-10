@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+miniconda3/
+.venvs/
+
+# IDE and tool caches
+.vscode/
+.idea/
+.antigravity-ide-server/
+.vscode-server/
+.cache/
+.gemini/
+.claude/
+.copilot/
+.conda/
+.ipython/
+.keras/
+.nv/
+.triton/
+.dotnet/
+.local/
+pip_tmp/
+speedtest.bin
+
+# Project specific heavy datasets & weights
+zroact-stage2/benchmark2/data/
+zroact-stage2/benchmark2/models/
+zroact-stage2/benchmark2/runs/
+zroact-stage2/benchmark2/temp_restore/
+zroact-stage2/benchmark2/training/
+zroact-stage2/unsloth_compiled_cache/
+zroact-stage1/YOWOv3/weights/
+zroact-stage1/YOWOv3/yowov3.onnx
+zroact-stage1/ckpt/
+backend/zerorisk_inputs/
+backend/zerorisk_outputs/
+
+# Zip / Tar files
+*.zip
+*.tar.gz
+*.pth
+*.onnx
+
+# Log files
+*.log
+
+# Test and job outputs
+zroact-stage2/serving/jobs/
+*.jpg
+*.jpeg
+*.png
+

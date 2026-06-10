@@ -1,0 +1,80 @@
+# ZeroRisK (ZroAct Pipeline) Requirements & Environment Setup Guide
+#
+# This project consists of two separate stages that require different PyTorch and Python/CUDA versions.
+# You must install them in separate conda environments.
+#
+# Follow the instructions below to set up the environments using the requirements files.
+
+================================================================================
+1. Stage 1 (YOWOv3 ONNX GPU, Python 3.10, CUDA 12.1)
+================================================================================
+
+# 1-1. Create and activate conda environment
+conda create -n zroact_s1 python=3.10 -y
+conda activate zroact_s1
+
+# 1-2. Install dependencies via stage1_requirements.txt
+# Note: Requires PyTorch CUDA 12.1 index and ONNX Runtime CUDA 12 extra index.
+pip install -r requirements/stage1_requirements.txt \
+    --index-url https://download.pytorch.org/whl/cu121 \
+    --extra-index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/
+
+# 1-3. Verify Stage 1 Installation
+python -c "
+import torch, onnxruntime
+print('Torch version:', torch.__version__)
+print('CUDA Available:', torch.cuda.is_available())
+print('ONNX Runtime version:', onnxruntime.__version__)
+print('Available providers:', onnxruntime.get_available_providers())
+"
+
+================================================================================
+2. Stage 2 (Qwen3.5-2B vLLM GPU, Python 3.11, CUDA 12.1 or 12.9)
+================================================================================
+
+Choose Option A (Stable CUDA 12.1) or Option B (Nightly CUDA 12.9) depending on your target server:
+
+--------------------------------------------------------------------------------
+Option A: Stable Environment (CUDA 12.1) - Recommended
+--------------------------------------------------------------------------------
+
+# A-1. Create and activate conda environment
+conda create -n zroact_s2 python=3.11 -y
+conda activate zroact_s2
+
+# A-2. Install PyTorch stable and vLLM stable
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install vllm "aiohttp>=3.9.0"
+
+# A-3. Install causal-conv1d local wheel (optional / depending on platform requirements)
+pip install wheels/causal_conv1d-1.6.2.post1-cp311-cp311-linux_x86_64.whl
+
+--------------------------------------------------------------------------------
+Option B: Nightly / Dev Environment (CUDA 12.9)
+--------------------------------------------------------------------------------
+
+# B-1. Create and activate conda environment
+conda create -n zroact_s2 python=3.11 -y
+conda activate zroact_s2
+
+# B-2. Install dependencies via stage2_requirements.txt
+# Note: Requires PyTorch nightly index and vLLM nightly index.
+pip install -r requirements/stage2_requirements.txt \
+    --pre \
+    --index-url https://download.pytorch.org/whl/nightly/cu129 \
+    --extra-index-url https://wheels.vllm.ai/nightly
+
+# B-3. Install causal-conv1d local wheel
+pip install wheels/causal_conv1d-1.6.2.post1-cp311-cp311-linux_x86_64.whl
+
+# B-4. Install flash-linear-attention from git
+pip install git+https://github.com/fla-org/flash-linear-attention.git@c525f4957f11a6f197b52c0c222377446c3eab56
+
+# B-5. Verify Stage 2 Installation
+python -c "
+import torch, vllm
+print('Torch version:', torch.__version__)
+print('vLLM version:', vllm.__version__)
+print('CUDA Available:', torch.cuda.is_available())
+"
+

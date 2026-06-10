@@ -1,0 +1,13 @@
+sample_key,target_risk_state,pred_risk_state,correct,json_success,schema_success,latency_sec,raw_response
+step2/set1,unsafe,danger,False,True,True,1.7276,"{
+  ""risk_state"": ""danger""
+}
+"
+step2/set2,,normal,,True,True,0.9687,"{
+  ""risk_state"": ""normal""
+}
+"
+step2/set3,,normal,,True,True,0.9707,"{
+  ""risk_state"": ""normal""
+}
+"

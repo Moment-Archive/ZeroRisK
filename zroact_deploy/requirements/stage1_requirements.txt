@@ -1,0 +1,28 @@
+# Stage1 (YOWOv3 ONNX) 환경 requirements
+# Python 3.9 | CUDA 12.x | cuDNN 8.x
+#
+# 설치 순서:
+#   1. torch (CUDA 12.1 용)
+#   2. onnxruntime-gpu 1.17.1 (CUDA 12 build, cuDNN 8 호환)
+#   3. 나머지
+
+# ── PyTorch (CUDA 12.1) ─────────────────────────────
+# --index-url https://download.pytorch.org/whl/cu121
+torch==2.1.2+cu121
+torchaudio==2.1.2+cu121
+torchvision==0.16.2+cu121
+
+# ── ONNX Runtime (CUDA 12 build, cuDNN 8 지원) ──────
+# --extra-index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/
+onnxruntime-gpu==1.17.1
+
+# ── numpy (2.0 미만 필수 — onnxruntime 1.17 호환) ───
+numpy<2
+
+# ── 서빙 / 유틸 ─────────────────────────────────────
+fastapi==0.128.8
+uvicorn[standard]>=0.29.0
+requests>=2.31.0
+Pillow>=10.0.0
+pyyaml>=6.0
+tqdm>=4.66.0

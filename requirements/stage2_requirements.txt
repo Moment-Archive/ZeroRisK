@@ -1,0 +1,31 @@
+# Stage2 (Qwen3.5-2B vLLM) 환경 requirements
+# Python 3.11 | CUDA 12.9 | torch 2.11 nightly
+#
+# ※ 주의: vLLM 0.21.1rc1 dev 빌드는 아래 전용 인덱스 사용
+# ※ torch 2.11.0+cu129 는 PyTorch nightly (CUDA 12.9) 빌드
+
+# ── 설치 인덱스 (setup_stage2_env.sh 에서 자동 적용) ──
+# torch nightly:  --pre --index-url https://download.pytorch.org/whl/nightly/cu129
+# vLLM nightly:   --pre --extra-index-url https://wheels.vllm.ai/nightly
+# onnxruntime-12: --extra-index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/
+
+# ── PyTorch nightly (CUDA 12.9) ─────────────────────
+torch==2.11.0+cu129
+torchaudio==2.11.0+cu129
+torchvision==0.26.0+cu129
+
+# ── vLLM dev build ───────────────────────────────────
+# 검증된 버전: 0.21.1rc1.dev285+gd5cf7b4a2
+# 아래 명령으로 설치:
+#   pip install vllm==0.21.1rc1 --pre --extra-index-url https://wheels.vllm.ai/nightly
+vllm==0.21.1rc1
+
+# ── causal-conv1d (wheels/ 디렉터리에서 설치) ────────
+# pip install wheels/causal_conv1d-1.6.2.post1-cp311-cp311-linux_x86_64.whl
+causal-conv1d==1.6.2.post1
+
+# ── flash-linear-attention (git 설치) ────────────────
+# pip install git+https://github.com/fla-org/flash-linear-attention.git@c525f4957f11a6f197b52c0c222377446c3eab56
+
+# ── aiohttp (파이프라인 async HTTP) ─────────────────
+aiohttp>=3.9.0

@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>ZroAct AI 서버 연동 구조 보고서</title>
+  <style>
+    @page { size: A4; margin: 17mm 15mm; }
+    body {
+      font-family: "Noto Sans CJK KR", "Noto Sans CJK", sans-serif;
+      color: #111827;
+      line-height: 1.55;
+      font-size: 10.3pt;
+    }
+    h1 {
+      font-size: 23pt;
+      margin: 0 0 16px;
+      border-bottom: 3px solid #f2b705;
+      padding-bottom: 10px;
+    }
+    h2 {
+      font-size: 15pt;
+      margin: 22px 0 8px;
+      color: #0f172a;
+    }
+    h3 {
+      font-size: 12pt;
+      margin: 14px 0 6px;
+    }
+    p { margin: 6px 0; }
+    ul { margin: 6px 0 8px 20px; padding: 0; }
+    li { margin: 3px 0; }
+    code {
+      font-family: "DejaVu Sans Mono", monospace;
+      background: #f3f4f6;
+      padding: 1px 4px;
+      border-radius: 3px;
+      font-size: 9.3pt;
+    }
+    pre {
+      font-family: "DejaVu Sans Mono", monospace;
+      background: #f8fafc;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+      padding: 10px 12px;
+      white-space: pre-wrap;
+      font-size: 8.9pt;
+      line-height: 1.42;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 12px;
+      font-size: 9.3pt;
+    }
+    th, td {
+      border: 1px solid #d1d5db;
+      padding: 6px 8px;
+      vertical-align: top;
+    }
+    th {
+      background: #f3f4f6;
+      font-weight: 700;
+    }
+    .note {
+      background: #fffbeb;
+      border-left: 4px solid #f2b705;
+      padding: 8px 10px;
+      margin: 8px 0 12px;
+    }
+  </style>
+</head>
+<body>
+  <h1>ZroAct AI 서버 연동 구조 보고서</h1>
+
+  <h2>1. 문서 목적</h2>
+  <p>
+    이 문서는 백엔드 서버와 AI 서버를 어떻게 연결할지 설명하기 위한 구조 정리 문서이다.
+    사용자는 CCTV 영상 또는 저장된 영상을 백엔드에 전달하고, 백엔드는 해당 영상을 AI 서버에 업로드한다.
+    AI 서버는 Stage 1과 Stage 2를 순서대로 실행한 뒤, VLM이 판단한 request별 위험 로그를 백엔드가 조회할 수 있는 형태로 제공한다.
+  </p>
+  <p>
+    현재 구현은 실제 실시간 서버의 최종 형태라기보다는, 백엔드 연동을 테스트하기 위한 MVP 구조이다.
+    다만 기존 실험 코드와 동일한 모델 흐름을 사용하므로, 이후 실시간 worker 구조로 확장할 때도 같은 데이터 흐름을 유지할 수 있다.
+  </p>
+
+  <h2>2. 전체 연결 구조</h2>
+  <pre>사용자 / CCTV 관제 PC
+→ 백엔드 서버에 영상 업로드
+→ 백엔드 서버가 AI 서버 API로 영상 전달
+→ AI 서버가 job_id 생성
+→ AI 서버 내부에서 Stage 1 실행
+→ Stage 1 결과를 이용해 Stage 2 request 구성
+→ Stage 2 VLM이 normal / unsafe / danger 판단
+→ request별 VLM 로그 저장
+→ 백엔드가 /jobs/{job_id}/logs 조회
+→ 프론트엔드 CCTV 화면과 이벤트 로그에 표시</pre>
+
+  <p>
+    중요한 점은 사용자가 AI 서버에 직접 접근하는 구조가 아니라는 것이다.
+    백엔드 서버가 영상 업로드, job 관리, 결과 조회를 담당하고, AI 서버는 모델 추론과 로그 생성만 담당한다.
+  </p>
+
+  <h2>3. AI 서버 내부 파이프라인</h2>
+  <p>
+    AI 서버는 하나의 영상을 받으면 내부적으로 다음 단계를 순서대로 실행한다.
+  </p>
+  <pre>1. 입력 영상 저장
+2. 30FPS 프레임 추출
+3. Stage 1 YOWOv3 Action Detection
+4. Stage 2용 3-frame sequence 생성
+5. Stage 2 VLM Risk Classification
+6. request별 VLM 로그 생성
+7. 백엔드 조회용 파일 및 API 응답 구성</pre>
+
+  <table>
+    <thead>
+      <tr>
+        <th>단계</th>
+        <th>역할</th>
+        <th>출력</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>프레임 추출</td>
+        <td>입력 영상을 30FPS 기준 프레임 이미지로 변환</td>
+        <td>frame image 목록</td>
+      </tr>
+      <tr>
+        <td>Stage 1</td>
+        <td>사람 위치와 행동 라벨 생성</td>
+        <td>bbox, action label</td>
+      </tr>
+      <tr>
+        <td>Stage 2 request 구성</td>
+        <td>VLM에 넣을 3장짜리 sequence 구성</td>
+        <td>[t, t+10, t+20] request</td>
+      </tr>
+      <tr>
+        <td>Stage 2</td>
+        <td>3장의 이미지와 action 정보를 보고 위험 상태 판단</td>
+        <td>normal / unsafe / danger</td>
+      </tr>
+      <tr>
+        <td>serving 로그 정리</td>
+        <td>백엔드가 조회할 수 있는 로그 형태로 정리</td>
+        <td>/jobs/{job_id}/logs 응답</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>4. Stage 1: YOWOv3 Action Detection</h2>
+  <p>
+    Stage 1은 CCTV 프레임에서 사람을 찾고, 각 사람에 대해 bounding box와 action label을 생성하는 단계이다.
+    이 단계의 목적은 최종 위험도를 판단하는 것이 아니라, Stage 2가 상황을 이해할 수 있도록 시각적 근거와 행동 단서를 제공하는 것이다.
+  </p>
+
+  <h3>Stage 1 입력과 출력</h3>
+  <ul>
+    <li>입력: 30FPS로 추출된 프레임 이미지</li>
+    <li>출력: 사람 bounding box, action label</li>
+    <li>예시 action: <code>stand</code>, <code>walk</code>, <code>carry/hold</code>, <code>bend/bow</code></li>
+  </ul>
+
+  <h3>Stage 1 처리 간격</h3>
+  <p>
+    모든 프레임을 Stage 1에 넣으면 처리 시간이 커진다.
+    그래서 현재 통합 구조에서는 <code>sample_rate=10</code>으로 설정했다.
+    즉 30FPS 영상 기준으로 10프레임 간격, 약 0.33초마다 한 번 Stage 1 결과를 생성한다.
+  </p>
+  <pre>30FPS 입력 기준:
+frame 000016
+frame 000026
+frame 000036
+...
+
+Stage 1 처리 간격:
+sample_rate = 10</pre>
+
+  <p>
+    이렇게 하면 모든 프레임을 처리하는 것보다 속도를 줄일 수 있고,
+    Stage 2가 사용하는 <code>[t, t+10, t+20]</code> 구조와도 자연스럽게 연결된다.
+  </p>
+
+  <h2>5. Stage 2: VLM Risk Classification</h2>
+  <p>
+    Stage 2는 Stage 1 결과를 바탕으로 3장의 이미지를 묶어서 VLM에 입력한다.
+    VLM은 이미지 3장과 각 프레임의 action label을 함께 보고 현재 sequence의 위험 상태를 판단한다.
+  </p>
+
+  <h3>Stage 2 입력 구성</h3>
+  <pre>Request 예시:
+F1: frame=16, time=0.533s, action=stand, carry/hold
+F2: frame=26, time=0.867s, action=stand, carry/hold
+F3: frame=36, time=1.200s, action=stand, carry/hold
+
+VLM 입력:
+이미지 3장 + frame/time 정보 + Stage 1 action label + prompt</pre>
+
+  <h3>Stage 2 출력</h3>
+  <p>
+    Stage 2의 출력은 세 가지 위험 상태 중 하나이다.
+  </p>
+  <ul>
+    <li><code>normal</code>: 펜스 침입과 관련 없는 일반 행동</li>
+    <li><code>unsafe</code>: 펜스 근처 접근, 확인, 접촉, 대기 등 침입 전 의심 상태</li>
+    <li><code>danger</code>: 발을 들어 오르려 하거나, 발판/펜스/단 위에 발을 올리거나, 경계를 넘기 시작한 상태</li>
+  </ul>
+
+  <p>
+    Stage 2 VLM은 request 하나가 끝날 때마다 <code>risk_state</code>를 만든다.
+    이 request별 결과가 백엔드 로그의 기본 단위가 된다.
+  </p>
+
+  <h2>6. 백엔드가 가져갈 로그 구조</h2>
+  <p>
+    백엔드가 프론트엔드에 로그를 띄우기 위해 필요한 정보는 복잡하지 않다.
+    각 VLM request마다 어떤 시간대에서 어떤 위험 상태가 나왔는지, 그리고 근거로 볼 이미지와 action이 무엇인지 정도면 충분하다.
+  </p>
+
+  <pre>{
+  "job_id": "test_001",
+  "offset": 0,
+  "count": 1,
+  "next_offset": 1,
+  "total": 12,
+  "logs": [
+    {
+      "video_id": "intrusion_climb-over-fence_rgb_0007_cctv3",
+      "request_id": "intrusion_0007_f000016_000026_000036",
+      "frame_indices": [16, 26, 36],
+      "time_sec": 1.2,
+      "risk_state": "danger",
+      "actions": [
+        "stand, carry/hold (an object)",
+        "stand, carry/hold (an object)",
+        "stand, carry/hold (an object)"
+      ],
+      "images": ["...", "...", "..."],
+      "latency_sec": 1.56
+    }
+  ]
+}</pre>
+
+  <table>
+    <thead>
+      <tr>
+        <th>필드</th>
+        <th>의미</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>job_id</code></td>
+        <td>영상 처리 작업 ID</td>
+      </tr>
+      <tr>
+        <td><code>request_id</code></td>
+        <td>Stage 2 VLM request ID</td>
+      </tr>
+      <tr>
+        <td><code>frame_indices</code></td>
+        <td>VLM에 들어간 3장의 프레임 번호</td>
+      </tr>
+      <tr>
+        <td><code>time_sec</code></td>
+        <td>해당 request가 영상에서 어느 시점인지 나타내는 시간</td>
+      </tr>
+      <tr>
+        <td><code>risk_state</code></td>
+        <td><code>normal</code>, <code>unsafe</code>, <code>danger</code> 중 하나</td>
+      </tr>
+      <tr>
+        <td><code>actions</code></td>
+        <td>Stage 1에서 나온 행동 라벨</td>
+      </tr>
+      <tr>
+        <td><code>images</code></td>
+        <td>프론트에서 근거 이미지로 보여줄 수 있는 이미지 경로</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="note">
+    <p>
+      <code>result.json</code>은 전체 처리 결과를 확인하기 위한 최종 요약/디버깅용이다.
+      실제 프론트엔드 로그 표시의 중심은 <code>/jobs/{job_id}/logs</code>에서 가져오는 VLM request별 로그이다.
+    </p>
+  </div>
+
+  <h2>7. API 사용 방식</h2>
+  <h3>서버 실행</h3>
+  <pre>cd /home/capstone2/zroact-stage2
+/home/capstone2/miniconda3/envs/qwen35/bin/python -m uvicorn \
+  serving.app:app \
+  --host 0.0.0.0 \
+  --port 9000</pre>
+
+  <h3>영상 업로드</h3>
+  <pre>curl -X POST http://AI_SERVER_IP:9000/jobs \
+  -H "X-API-Key: change-this" \
+  -F "file=@/path/to/input.mp4"</pre>
+
+  <h3>처리 상태 조회</h3>
+  <pre>curl http://AI_SERVER_IP:9000/jobs/{job_id} \
+  -H "X-API-Key: change-this"</pre>
+
+  <h3>VLM request별 로그 조회</h3>
+  <pre>curl "http://AI_SERVER_IP:9000/jobs/{job_id}/logs?after=0&limit=100" \
+  -H "X-API-Key: change-this"</pre>
+
+  <h3>최종 요약 조회</h3>
+  <pre>curl http://AI_SERVER_IP:9000/jobs/{job_id}/result \
+  -H "X-API-Key: change-this"</pre>
+
+  <h2>8. 현재 테스트 결과</h2>
+  <p>
+    단일 테스트 영상에 대해 통합 파이프라인을 실행했고, Stage 1과 Stage 2가 정상적으로 연결되는 것을 확인했다.
+    해당 테스트에서는 Stage 2 request 12개가 생성되었고, request별 로그를 <code>/jobs/{job_id}/logs</code> 형태로 조회할 수 있다.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>항목</th>
+        <th>결과</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>입력 영상</td>
+        <td><code>intrusion_climb-over-fence_rgb_0007_cctv3.mp4</code></td>
+      </tr>
+      <tr>
+        <td>Stage 1 처리 간격</td>
+        <td><code>sample_rate=10</code>, 10프레임 간격</td>
+      </tr>
+      <tr>
+        <td>Stage 2 request 수</td>
+        <td>12개</td>
+      </tr>
+      <tr>
+        <td>최종 위험 상태</td>
+        <td><code>danger</code></td>
+      </tr>
+      <tr>
+        <td>VLM request 평균 시간</td>
+        <td>약 1.56초</td>
+      </tr>
+      <tr>
+        <td>전체 처리 시간</td>
+        <td>약 48.2초</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>9. 실시간성 개선 방향</h2>
+  <p>
+    현재 MVP는 영상 하나를 job 단위로 처리하고, 내부에서 pipeline을 실행한다.
+    그래서 모델 로딩 시간이 포함되어 완전한 실시간 구조는 아니다.
+    실시간성을 높이려면 Stage 1과 Stage 2 모델을 worker 형태로 한 번만 로드해두는 구조가 필요하다.
+  </p>
+
+  <pre>현재 MVP:
+영상 업로드
+→ pipeline 실행
+→ Stage 1 / Stage 2 모델 실행
+→ request별 로그 조회
+
+향후 실시간 구조:
+Stage1Worker: YOWOv3 상시 로드, 10프레임 간격 처리
+Stage2Worker: VLM 상시 로드
+Scheduler: [t, t+10, t+20] sequence 생성
+Backend: VLM 로그를 실시간 또는 준실시간으로 수신</pre>
+
+  <h2>10. 백엔드 담당자에게 전달할 내용</h2>
+  <ul>
+    <li>백엔드는 영상을 AI 서버의 <code>POST /jobs</code>로 업로드한다.</li>
+    <li>AI 서버는 Stage 1을 10프레임 간격으로 돌려 bbox/action을 만든다.</li>
+    <li>Stage 2는 3장의 이미지와 action label을 이용해 <code>normal / unsafe / danger</code>를 판단한다.</li>
+    <li>프론트 로그에 쓸 데이터는 <code>GET /jobs/{job_id}/logs</code>로 가져간다.</li>
+    <li><code>result.json</code>은 최종 요약/디버깅용이고, 실제 로그 표시의 중심은 request별 VLM 로그이다.</li>
+    <li>현재는 백엔드 연동 테스트용 MVP이며, 추후 worker 구조로 바꾸면 지연 시간을 줄일 수 있다.</li>
+  </ul>
+</body>
+</html>
