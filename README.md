@@ -1,4 +1,7 @@
-# ZeroRisK (ZroAct 스트리밍 파이프라인 — 배포 패키지)
+# ZeroRisK: ZroAct 스트리밍 파이프라인 — 배포 패키지
+
+**ZeroRisK**는 VLM(Vision-Language Model) 기반의 Zero-shot 기술을 활용하여 산업 현장의 고위험 상황을 실시간으로 탐지하고 대응하기 위한 고위험 예방/탐지 시스템 개발 프로젝트입니다.
+
 
 Stage1 (YOWOv3 ONNX · GPU) + Stage2 (Qwen3.5-2B vLLM · GPU) 실시간 침입 탐지
 
